@@ -2,13 +2,6 @@
 #Marlon Angulo Ramos
 ##Impute 1
 
-install.packages("pacman")
-library(pacman)
-p_load(rio,tidyverse,skimr,visdat, corrplot,stargazer, scales)  
-
-df <- import("https://github.com/ignaciomsarmiento/datasets/blob/main/GEIH_sample1.Rds?raw=true")
-names(df)
-
 #Variable de interés
 df_salary <- df %>% select(y_salary_m)
 
