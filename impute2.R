@@ -1,4 +1,4 @@
-# Inc##Complementaria 1
+#Complementaria 1
 #Marlon Angulo Ramos
 ##Impute 2
 
